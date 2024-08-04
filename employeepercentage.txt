@@ -1,0 +1,31 @@
+include<stdio.h>
+void main()
+float basic pay hra;
+char grade;
+puts("input basic pay");
+scanf("%f",&basic pay);
+printf("enter a charector for an employee grade,A-60%,B-50%,C-40%,D-30%");
+scanf("%c",&grade);
+if(grade == 'A')
+{
+	puts("hra slab - 60%");
+	hra = (basic pay*60/100);
+	printf("hra amount :% f"hra);
+}
+else if(grade == 'B');
+{
+	puts(hra slab - 50%);
+	hra = (basic pay*50/100);
+}
+else if(grade =='C');
+{
+	puts(hra slab - 40%);
+	hra = (basic pay*40/100);
+	printf("hra amount:%f",hra);
+}
+else if (grade == 'D');
+{
+	puts(hra slab - 30%);
+	hra = (basic pay*30/100);
+	printf("hra amount:%f",hra)
+}
