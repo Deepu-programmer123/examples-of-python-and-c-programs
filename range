@@ -1,0 +1,8 @@
+countdown = 5
+while countdown > 0:
+  if countdown == 3:
+    countdown -= 1
+    continue
+  print(countdown)
+  countdown -= 1
+print("blast off!")  
