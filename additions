@@ -1,0 +1,21 @@
+a = int(input("enter the first number : "))
+b = int(input("enter the second number :"))
+
+#addition assignment
+a += b
+print("addition assignment:",a)
+#subtraction assignment
+a -= b
+print("subtraction assignment:",a)
+#multiplication assignment
+a *= b 
+print("multiplication assignment:",a)
+#divison assignment
+a /= b
+print("division assignment:",a)
+#modulus assignment
+a %= b
+print("modulus assignment:",a)
+#exponentiation assignment
+a **= b
+print("exponentiation assignment:",a)
