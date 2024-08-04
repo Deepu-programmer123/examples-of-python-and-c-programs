@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int e,s,m,p,c;
+float per;
+printf("enter the english marks u have scored:");
+scanf("%d",&e);
+printf("enter the sanskrit marks u have scored:");
+scanf("%d",&s);
+printf("enter the maths u have scored:");
+scanf("%d",&m);
+printf("enter the physics have scored:");
+scanf("%d",&p);
+printf("enter the chemistry marks u have scored");
+scanf("%d",&c);
+fflush(stdin);
+printf("U have scored in english:%d\n",e);
+printf("U have scored in sanskrit:%d\n",s);
+printf("U have scored in mathematics:%d\n",m);
+printf("U have scored in physics:%d\n",p);
+printf("U have scored in Chemistry:%d\n",c);
+per=e+s+m+p+c/1000*100;
+fflush(stdin);
+printf("U have scored in mpc group is:%f",per);
+return 0;
+
+
+}
