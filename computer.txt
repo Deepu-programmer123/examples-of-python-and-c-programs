@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	float f=20;
+	char ch=30;
+	double d=39;
+	long l=89;
+	printf("integer value in the computer memory occupies :%d bytes\n,",sizeof(a));
+	printf("float value in the computer memory occupies:%dbytes\n,",sizeof(f));
+	printf("char value in the computer memory occupies:%dbytes\n",sizeof(ch));
+	printf("double value in the computer memory occupies:%dbytes\n",sizeof(d));
+printf("long value in the computer memory occupies:%dbytes\n",sizeof(l));
+	return 0;
+}
