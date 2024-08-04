@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	char moviename(30);
+	int num;
+	printf("name of your favourite movie:");
+	gets("movie name");
+	printf("number of times you watched it:");
+	scanf("%d",number);
+	printf("your favourite movie name:");
+	puts(movie name);
+	printf("number of times you eatched it %d",number);
+}
