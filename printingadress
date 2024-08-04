@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int i;
+	char address[30];
+	printf("enter your address:");
+	gets(address);
+	fflush(stdin);
+	puts(address);
+	for(i=0;i<50;i=i+1)
+	printf("%s\n",address);
+	return 0;	
+}
