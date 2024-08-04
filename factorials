@@ -1,0 +1,11 @@
+number = int(input("enter a number: "))
+factorial = 1
+if number < 0:
+  print("factorial does not work for negative numbers")
+elif number == 0 or number == 1:
+  print("it is a factorial is 1 ")
+else :
+  while number > 0:
+    factorial *= number
+    number -= 1
+print("the factorial is :",factorial)
