@@ -1,0 +1,6 @@
+number = int(input("enter a number: "))
+count = 0
+while number <= 1000:
+  number *= 2
+  count += 1
+print("the", number," exceeded 1000 after",count,"times")   
