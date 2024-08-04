@@ -1,0 +1,9 @@
+birth_year= int(input("enter your birth year: "))
+if birth_year < 2000:
+  print("fortune tells of exciting adventures ahead")
+elif birth_year < 2010:
+  print("great sucess in future")
+elif birth_year < 2020:
+  print("unexpected wealth is coming in your way")
+else:
+  print("you will live a long and fulfilling life")
