@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+  printf("enter the vowel you wants:");
+  scanf("%c"&vowel);
+  printf("display the vowel you want");
+  return 0;
+}
