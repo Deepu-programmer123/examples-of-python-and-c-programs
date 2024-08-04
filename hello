@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+char name(25);
+char message(14);
+printf("enter your name:");
+fflush(stdin);
+printf("hello how are you:");
+fflush(stdout);
+printf("your name is \n:"); 
+
+return 0;
+}
