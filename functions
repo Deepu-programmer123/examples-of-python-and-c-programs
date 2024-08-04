@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int display();
+puts("i am in main");
+display();
+puts("i am return back to main");
+printf("welcome to the world of functions ");
+puts("now return back to main");
+return0;
+}
+int display()
+{
+puts("i am in display");
+return 0;
+}
